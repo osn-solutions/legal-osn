@@ -27,7 +27,7 @@ These are drafts. Have counsel review them before publishing. Highlighted text (
 | Hosting | AWS us-east-2 (Ohio): EC2, Postgres and Redis on EBS, S3 backups, CloudFront for map tiles | SABRE AWS Production Stack |
 | Network | Cloudflare DNS, CDN, and Tunnel; Cloudflare terminates TLS | SABRE AWS Production Stack |
 | Sign-in | Secure JWT cookie; CloudFront signed cookies for `.osnplatform.com` minted at login | SABRE AWS Production Stack |
-| AI | External LLM API called from the `llm-worker` service; provider not documented | SABRE AWS Production Stack |
+| AI | Anthropic's Claude, called from the `llm-worker` service. Anthropic's commercial terms bar training on customer content. | Founder confirmation; SABRE AWS Production Stack; Anthropic Commercial Terms |
 | Map data | Esri World Imagery, OpenFreeMap, OpenStreetMap, Copernicus DEM, Sentinel-2 land cover | SABRE Architecture doc |
 | Uploads | Custom maps (GeoTIFF, Shapefile, GeoJSON, images) and `.sabre` scenario packages | SABRE Architecture doc; Package Encryption doc |
 | Contact form | Name, email, topic (JAWS inquiry, JAWS application, press, SABRE waitlist, other), message | osnplatform.com/contact |
@@ -38,14 +38,15 @@ These are drafts. Have counsel review them before publishing. Highlighted text (
 
 These are real conflicts between OSN's own documents. The policies will be wrong until they are settled.
 
-1. **Which address is OSN's headquarters?** Three are in use. Brooklyn is on the certificate of incorporation and in these policies. Chesterfield, MI is listed as the headquarters on the Michigan foreign qualification. osnplatform.com says Ann Arbor, MI. If Brooklyn is the principal office, ask counsel whether OSN must register to do business in New York. Michigan requires an amended filing within 30 days of a change to that form's information.
-2. **What can OSN do with de-identified data?** Four documents say four different things:
-    - OSN Terms draft: only to operate and improve the Service.
-    - These policies: improve the Service, train models, publish aggregate research, share with research partners, never sell.
-    - Research Deployment draft: may share with research bodies; may not sell for commercial purposes.
-    - SABRE Pilot Agreement: may "commercially exploit" it for any lawful purpose.
+1. **Headquarters: decided. Brooklyn.** Three follow-ups make the other records match:
+    - osnplatform.com says "Ann Arbor, MI." Change it.
+    - The Michigan foreign qualification lists Chesterfield, MI as the main office. Michigan requires an amended application within 30 days of a change to that information. Ask counsel whether to file one.
+    - Ask counsel whether OSN must register to do business in New York, and make SAM.gov use the same address.
+2. **What can OSN do with de-identified data? Recommended rule, now in the policies:** use it to improve SABRE, train models, run benchmarks, and publish aggregate research. Share aggregated insights that identify no person, Organization, or unit. Never sell the data itself. Never use it for ads. Never share anything that identifies a unit, location, capability, or readiness level.
 
-    Pick one rule. Then fix the Pilot Agreement or the policies to match.
+    Why this rule: it keeps the data moat from the investor pitch, it matches the customer one-pager's "never sell" promise and the Research Deployment draft, and university and government buyers can accept it. Your own Terms draft was narrower (improve the Service only), which would block research and benchmarks.
+
+    To finish: confirm with Leo and Jacob, then edit Section 5(b) of the SABRE Pilot Agreement. It currently lets OSN "commercially exploit" de-identified data "for any lawful purpose," which is broader than these policies.
 3. **How strong is the anonymization promise?** The customer one-pager says player data is anonymized before any use beyond live session analytics. These policies say names are removed "where practical" before model training. Marketing that promises more than the policy is an FTC risk. Make them match. A flag sits in the Privacy Policy.
 4. **Model-training opt-out.** The policies promise Organizations can opt out of model training. The Pilot Agreement has no opt-out. Add a checkbox to Schedule 1, or drop the promise.
 5. **Deletion timing.** The policies promise deletion within 90 days after a subscription ends. The Pilot Agreement deletes within 60 days, only on written request. Both work only if OSN can actually do it. Pick a schedule you can meet.
@@ -55,7 +56,7 @@ These are real conflicts between OSN's own documents. The policies will be wrong
 ## Still to fill in
 
 1. Effective date (all five documents)
-2. AI model provider: name, location, and confirmation its terms bar training on OSN data
+2. Whether SABRE calls Claude through Anthropic's API or Amazon Bedrock, and where Anthropic processes the data (its Data Processing Addendum)
 3. Contact form processor and any payment processor (Subprocessors page)
 4. Analytics provider for the Cookie Notice, or delete that row
 5. Whether EBS volumes and S3 backups are encrypted at rest. The Privacy Policy only claims it once you confirm.
@@ -66,13 +67,14 @@ These are real conflicts between OSN's own documents. The policies will be wrong
 ## Items for counsel
 
 1. **Export controls.** Whether any SABRE content falls under ITAR or EAR, and whether foreign nationals may use it.
-2. **Arbitration.** Enforceability of AAA arbitration and the class waiver, including for users under 18.
-3. **Automated decisions.** Whether the profiling statement fits how Organizations use SABRE scores.
-4. **Map licenses.** Esri World Imagery has its own terms of use, which may limit commercial use without an Esri account. OpenStreetMap's license requires visible attribution in the map. Confirm Google Maps is fully removed, since Google's terms bar mixing its maps with others.
-5. **IP ownership.** The Terms say OSN owns SABRE. Confirm the chain of title: founder and contributor invention assignments, the v1 rules built with volunteer cadets, any claim from the University of Michigan through Build & Launch or Fuel funding, and any invention agreement from a founder's outside employer.
-6. **JAWS.** Written permission to use the JAWS name and rules.
-7. **Trademark.** Sabre Corporation holds SABRE marks for software. Clear the name before building the brand further.
-8. **New York SHIELD Act.** As a New York business, OSN needs a written security program that matches the Privacy Policy.
+2. **Arbitration.** Enforceability of AAA arbitration and the class waiver, including for users under 18. Also register the clause in AAA's Consumer Clause Registry. If it is not registered when a claim is filed, AAA charges an expedited review fee and may decline the case unless OSN waives any term it finds unfair.
+3. **Anthropic Usage Policy.** It prohibits using Claude for weapons targeting and "battlefield management." SABRE is a training tool, and its Terms bar real-world operational use, which helps. Planner uses such as stress-testing a real course of action, or exercise digital twins, sit closer to the line. Confirm the use case fits, and ask Anthropic about its government terms before any DoD deployment.
+4. **Automated decisions.** Whether the profiling statement fits how Organizations use SABRE scores.
+5. **Map licenses.** Esri World Imagery has its own terms of use, which may limit commercial use without an Esri account. OpenStreetMap's license requires visible attribution in the map. Confirm Google Maps is fully removed, since Google's terms bar mixing its maps with others.
+6. **IP ownership.** The Terms say OSN owns SABRE. Confirm the chain of title: founder and contributor invention assignments, the v1 rules built with volunteer cadets, any claim from the University of Michigan through Build & Launch or Fuel funding, and any invention agreement from a founder's outside employer.
+7. **JAWS.** Written permission to use the JAWS name and rules.
+8. **Trademark.** Sabre Corporation holds SABRE marks for software. Clear the name before building the brand further.
+9. **New York SHIELD Act.** As a New York business, OSN needs a written security program that matches the Privacy Policy.
 
 ## Changes from OSN's Drive drafts
 

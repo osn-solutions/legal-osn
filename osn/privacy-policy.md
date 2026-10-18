@@ -59,7 +59,7 @@ We do not collect precise geolocation data from your device. Some map imagery ma
 
 **Cookies and other technologies.** Some of our automatic data collection uses cookies and similar technologies. For more information, see our [Cookie Notice](https://osnplatform.com/cookies).
 
-**Artificial intelligence ("AI") technologies.** Some SABRE features use AI models from third-party providers, such as <mark>[LIST AI MODEL PROVIDERS]</mark>, to turn scenario descriptions into rulesets, control AI opponents, and generate after-action reports. These providers receive the scenario descriptions, prompts, and game data needed to deliver those features. <mark>[CONFIRM WITH EACH PROVIDER'S TERMS BEFORE PUBLISHING: We contractually require these providers to protect your data and prohibit them from using it to train their own general-purpose models.]</mark>
+**Artificial intelligence ("AI") technologies.** Some SABRE features use Anthropic's Claude models to turn scenario descriptions into rulesets, control AI opponents, and generate after-action reports. Anthropic receives the scenario descriptions, prompts, and game data needed to deliver those features. Anthropic's commercial terms prohibit it from training its models on the content we send. <mark>[IF SABRE CALLS CLAUDE THROUGH AMAZON BEDROCK RATHER THAN ANTHROPIC'S API, SAY SO HERE AND IN THE SUBPROCESSOR LIST.]</mark>
 
 # How we use your personal information
 
@@ -77,7 +77,7 @@ We use personal information for the following purposes, or as otherwise describe
 
 **Corporate events.** To support actual or prospective corporate transactions, as described in How we share your personal information below.
 
-**Aggregated and de-identified data.** We may create aggregated and de-identified data from personal information by removing information that makes it identifiable to you. We will not attempt to re-identify that data, except to test whether our de-identification methods comply with law. We may use de-identified data to analyze and improve the Service, train our AI models, perform benchmarking, and conduct and publish aggregate research on military training effectiveness. We do not sell it or use it for advertising.
+**Aggregated and de-identified data.** We may create aggregated and de-identified data from personal information by removing information that makes it identifiable to you. We will not attempt to re-identify that data, except to test whether our de-identification methods comply with law. We may use de-identified data to analyze and improve the Service, train our AI models, perform benchmarking, and conduct and publish aggregate research on military training effectiveness. We may share aggregated insights and benchmarks that do not identify any individual, Organization, or unit. We do not sell de-identified data itself or use it for advertising.
 
 **Further uses.** If we want to use your personal information for a purpose that is not compatible with the purpose for which we collected it, we will ask for your consent first.
 
@@ -93,7 +93,7 @@ We use training and performance data to improve SABRE's scenarios, scoring, and 
 
 **Other users.** Other players and observers in an exercise may see your in-game actions and results, consistent with the rules of that exercise. If you share a scenario with other Organizations or publish it to a scenario library, other users can see it.
 
-**Service providers.** Third parties that provide services on our behalf or help us operate the Service, such as Amazon Web Services (hosting, storage, backups, and map delivery in the United States), Cloudflare (network security, content delivery, and DNS), Google Workspace (email and business documents), and AI model providers. Service providers may use personal information only to provide services to us. Our current list is on our [subprocessor page](https://osnplatform.com/subprocessors).
+**Service providers.** Third parties that provide services on our behalf or help us operate the Service, such as Amazon Web Services (hosting, storage, backups, and map delivery in the United States), Cloudflare (network security, content delivery, and DNS), Google Workspace (email and business documents), and Anthropic (AI features). Service providers may use personal information only to provide services to us. Our current list is on our [subprocessor page](https://osnplatform.com/subprocessors).
 
 **Research partners.** We may share de-identified data with academic institutions, government research bodies, and nonprofit research organizations for military training research. Recipients must agree not to re-identify the data and to use it only for that research.
 
@@ -143,7 +143,7 @@ We use administrative, technical, and physical safeguards designed to protect pe
 
 # Where we store data
 
-We are headquartered in the United States. We store and process data in the United States, using Amazon Web Services data centers. <mark>[CONFIRM EACH AI MODEL PROVIDER PROCESSES DATA IN THE UNITED STATES.]</mark> If you access the Service from outside the United States, your personal information will be transferred to the United States, where privacy laws may not be as protective as those in your country.
+We are headquartered in the United States. We store and process data in the United States, using Amazon Web Services data centers. <mark>[CONFIRM IN ANTHROPIC'S DATA PROCESSING ADDENDUM WHERE IT PROCESSES API DATA. IF NOT ONLY THE UNITED STATES, SAY SO HERE.]</mark> If you access the Service from outside the United States, your personal information will be transferred to the United States, where privacy laws may not be as protective as those in your country.
 
 # Children and minors
 
