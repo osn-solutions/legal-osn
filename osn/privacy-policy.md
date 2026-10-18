@@ -4,7 +4,7 @@ Effective as of <mark>[EFFECTIVE DATE]</mark>, 2026.
 
 **Notice at Collection and State Privacy Rights Notice:** See the State privacy rights notice section below for important information about your rights under applicable state privacy laws.
 
-Operational & Strategic Networks Inc. ("**OSN**," "**we**," "**us**" or "**our**") is a Delaware corporation that builds simulation and wargaming tools for military education and training. This Privacy Policy describes how OSN processes personal information that we collect through osnplatform.com, the SABRE training platform (Simulations, Analytics, and Battle Readiness Engine), the JAWS digital wargame, and any other online services that link to this Privacy Policy, as well as our briefings, demonstrations, events, and other activities described in this Privacy Policy (collectively, the "**Service**").
+Operational & Strategic Networks Inc. ("**OSN**," "**we**," "**us**" or "**our**") is a Delaware corporation that builds simulation and wargaming tools for military education and training. This Privacy Policy describes how OSN processes personal information that we collect through osnplatform.com and its subdomains (including sabre.osnplatform.com), the SABRE training platform (Simulations, Analytics, and Battle Readiness Engine), OSN's digital version of the JAWS wargame, and any other online services that link to this Privacy Policy, as well as our briefings, demonstrations, events, and other activities described in this Privacy Policy (collectively, the "**Service**").
 
 **Index**
 Organizations and this policy
@@ -27,16 +27,18 @@ State privacy rights notice
 
 Most users access SABRE through an organization, such as a university ROTC program or a military unit (an "**Organization**"). That Organization controls its users' training data, and we process that data on its behalf under our agreement with it. If that agreement conflicts with this Privacy Policy, the agreement controls. Where your Organization's student records are protected by the Family Educational Rights and Privacy Act (FERPA), we handle them as a "school official" under the Organization's direct control and use them only as FERPA and our agreement allow.
 
+This Privacy Policy covers the Service as OSN hosts it. If an Organization runs a version of the Service on its own systems, that Organization's agreement and policies govern that deployment.
+
 # Personal information we collect
 
 ## Information you provide to us.
 
-1. **Contact data**, such as your name, email address, phone number, organization or unit, and title or rank, when you request a briefing, join a waitlist, or contact us.
-2. **Account data**, such as your name, email address, rank or role, unit or school, and login credentials. Your Organization usually provides this when it sets up your account.
-3. **Training and performance data**, such as the scenarios you play, your decisions, decision timing, order sequencing, unit positioning, resource allocation, scores, completion records, outcomes, after-action reports, and instructor feedback.
-4. **User-generated content and input data**, such as scenario descriptions, prompts, text, files, and messages you enter into the Service, and related metadata.
-5. **Communications data** based on our exchanges with you, including when you email us, request support, or attend a briefing.
-6. **Organization billing data**, such as the name and email of an Organization's billing contact, invoices, and payment records. We do not collect payment card numbers through the Service.
+1. **Contact data**, such as your name, email address, the topic of your message, and the message itself, when you use our contact form to request a briefing, join the SABRE waitlist, ask about or apply to a JAWS program, make a press inquiry, or otherwise contact us. It may also include your phone number, organization or unit, and title or rank if you share them.
+2. **Account data**, such as your name, email address, rank or role, unit or school, team assignment, and login credentials. Your Organization usually provides this when it sets up your account.
+3. **Training and performance data**, such as the exercises and scenarios you play, your decisions and orders, decision timing, unit positioning, resource allocation, scores, completion records, outcomes, after-action reports, and instructor feedback.
+4. **User-generated content and input data**, such as scenario descriptions, prompts, rulesets you create or edit, maps, images, and geographic files you upload, scenario packages you import or export, messages, and related metadata.
+5. **Communications data** based on our exchanges with you, including when you email us, request support, report an issue, or attend a briefing.
+6. **Organization billing data**, such as the name and email of an Organization's billing contact, invoices, and payment records. We do not collect payment card numbers through the Service. <mark>[IF A PAYMENT PROCESSOR IS USED FOR CARD PAYMENTS, NAME IT HERE AND IN THE SUBPROCESSOR LIST.]</mark>
 7. **Other data** not specifically listed here, which we will use as described in this Privacy Policy or as otherwise disclosed at the time of collection.
 
 ## Third-party sources. We may combine personal information we receive from you with personal information we obtain from other sources, such as:
@@ -48,40 +50,40 @@ Most users access SABRE through an organization, such as a university ROTC progr
 ## Automatic data collection. We and our service providers may automatically log information about you, your device, and your interaction with the Service over time, such as:
 
 1. **Device data**, such as your operating system, browser type, device type, IP address, language settings, and general location derived from your IP address (such as city or state).
-2. **Online activity data**, such as pages or screens you viewed, time spent on them, navigation paths, access times, session events, and error logs.
+2. **Online activity data**, such as pages or screens you viewed, map areas loaded, session events, access times, and error logs.
 3. **Communication interaction data**, such as whether you open or click links in our emails.
 
-We do not collect precise geolocation data. For more information about automatic collection, see the Tracking and other technologies section below.
+We do not collect precise geolocation data from your device. Some map imagery may load in your browser directly from third-party map providers, such as Esri and OpenFreeMap. When that happens, the provider receives your IP address and the map area requested, and its own privacy policy applies. <mark>[CONFIRM WHICH MAP LAYERS LOAD DIRECTLY FROM THIRD PARTIES AND WHICH ARE SERVED FROM tileserve.osnplatform.com.]</mark> For more information about automatic collection, see the Tracking and other technologies section below.
 
 # Tracking and other technologies
 
 **Cookies and other technologies.** Some of our automatic data collection uses cookies and similar technologies. For more information, see our [Cookie Notice](https://osnplatform.com/cookies).
 
-**Artificial intelligence ("AI") technologies.** Some SABRE features use AI models from third-party providers, such as <mark>[LIST AI MODEL PROVIDERS]</mark>, to turn scenario descriptions into rulesets, run AI opponents, and generate after-action reports. These providers receive the scenario descriptions, prompts, and game data needed to deliver those features. <mark>[CONFIRM WITH EACH PROVIDER'S TERMS BEFORE PUBLISHING: We contractually require these providers to protect your data and prohibit them from using it to train their own general-purpose models.]</mark>
+**Artificial intelligence ("AI") technologies.** Some SABRE features use AI models from third-party providers, such as <mark>[LIST AI MODEL PROVIDERS]</mark>, to turn scenario descriptions into rulesets, control AI opponents, and generate after-action reports. These providers receive the scenario descriptions, prompts, and game data needed to deliver those features. <mark>[CONFIRM WITH EACH PROVIDER'S TERMS BEFORE PUBLISHING: We contractually require these providers to protect your data and prohibit them from using it to train their own general-purpose models.]</mark>
 
 # How we use your personal information
 
 We use personal information for the following purposes, or as otherwise described at the time of collection:
 
-**Service delivery and operations.** To provide, operate, and secure the Service; create and maintain accounts; run exercises; generate scores, after-action reports, and feedback for you and your Organization; send service notices, security alerts, and administrative messages; and respond to support requests.
+**Service delivery and operations.** To provide, operate, and secure the Service; create and maintain accounts; run exercises; deliver maps; generate scores, after-action reports, and feedback for you and your Organization; send service notices, security alerts, and administrative messages; and respond to support requests and issue reports.
 
 **Service improvement and analytics.** To understand how the Service is used, fix errors, improve scenarios, scoring, and features, and develop new products and services.
 
 **Model training and improvement.** To improve SABRE's scenarios, scoring, and AI models, as described in the next section.
 
-**Communications.** To respond to briefing requests and inquiries, manage waitlists, and, with your consent, send product updates. You can opt out of product updates at any time.
+**Communications.** To respond to briefing requests, inquiries, and JAWS program questions; manage the SABRE waitlist; and, with your consent, send product updates. You can opt out of product updates at any time.
 
 **Compliance and protection.** To comply with applicable laws, lawful requests, and legal process; protect our, your, or others' rights, privacy, safety, or property; audit compliance with legal and contractual requirements; enforce our Terms of Use; and prevent and investigate fraud, misuse, security incidents, and other harmful or unlawful activity.
 
 **Corporate events.** To support actual or prospective corporate transactions, as described in How we share your personal information below.
 
-**Aggregated and de-identified data.** We may create aggregated and de-identified data from personal information by removing information that makes it identifiable to you. We will not attempt to re-identify that data, except to test whether our de-identification methods comply with law. We may use de-identified data to analyze and improve the Service, train our AI models, perform benchmarking, and conduct and publish aggregate research on military training effectiveness.
+**Aggregated and de-identified data.** We may create aggregated and de-identified data from personal information by removing information that makes it identifiable to you. We will not attempt to re-identify that data, except to test whether our de-identification methods comply with law. We may use de-identified data to analyze and improve the Service, train our AI models, perform benchmarking, and conduct and publish aggregate research on military training effectiveness. We do not sell it or use it for advertising.
 
 **Further uses.** If we want to use your personal information for a purpose that is not compatible with the purpose for which we collected it, we will ask for your consent first.
 
 # Model training and improvement
 
-We use training and performance data to improve SABRE's scenarios, scoring, and AI models. Where practical, we remove names and direct identifiers first. An Organization can opt out of model training in its agreement with us. Individual users can ask their Organization to opt out, or email us at leo@osnplatform.com.
+We use training and performance data to improve SABRE's scenarios, scoring, and AI models. Where practical, we remove names and direct identifiers first. <mark>[DECIDE BEFORE PUBLISHING: OSN's customer one-pager promises that player data is anonymized before any use beyond live session analytics. If that is OSN's practice, replace the previous sentence with that promise. If it is not, change the one-pager.]</mark> An Organization can opt out of model training in its agreement with us. Individual users can ask their Organization to opt out, or email us at leo@osnplatform.com.
 
 # How we share your personal information
 
@@ -89,9 +91,9 @@ We use training and performance data to improve SABRE's scenarios, scoring, and 
 
 **Your Organization.** Instructors and administrators of your Organization can see your account, training, and performance data.
 
-**Other users in your exercises.** Other players in an exercise may see your in-game actions and results, consistent with the rules of that exercise.
+**Other users.** Other players and observers in an exercise may see your in-game actions and results, consistent with the rules of that exercise. If you share a scenario with other Organizations or publish it to a scenario library, other users can see it.
 
-**Service providers.** Third parties that provide services on our behalf or help us operate the Service, such as hosting (Amazon Web Services, in the United States), content delivery and security (Cloudflare), AI model providers, <mark>[LIST OTHER VENDORS, e.g., email delivery, analytics, error tracking]</mark>. Service providers may use personal information only to provide services to us. Our current list of subprocessors is available at <mark>[SUBPROCESSOR LIST URL]</mark>.
+**Service providers.** Third parties that provide services on our behalf or help us operate the Service, such as Amazon Web Services (hosting, storage, backups, and map delivery in the United States), Cloudflare (network security, content delivery, and DNS), Google Workspace (email and business documents), and AI model providers. Service providers may use personal information only to provide services to us. Our current list is on our [subprocessor page](https://osnplatform.com/subprocessors).
 
 **Research partners.** We may share de-identified data with academic institutions, government research bodies, and nonprofit research organizations for military training research. Recipients must agree not to re-identify the data and to use it only for that research.
 
@@ -107,19 +109,19 @@ We use training and performance data to improve SABRE's scenarios, scoring, and 
 
 # Controlled and classified information
 
-The Service is not authorized to store Controlled Unclassified Information (CUI), classified information, or export-controlled technical data. Do not enter it. If we find such information, we may delete it and notify your Organization. Handling of CUI, if ever offered, will be governed by a separate written agreement.
+The Service is not authorized to store Controlled Unclassified Information (CUI), classified information, or export-controlled technical data. Do not enter or upload it. If we find such information, we may delete it and notify your Organization. Handling of CUI, if ever offered, will be governed by a separate written agreement.
 
 # Retention
 
-We keep account and training data while your Organization's subscription or pilot is active. Within <mark>[90]</mark> days after it ends, we delete or return that Organization's data, unless law requires us to keep it or the Organization's agreement provides otherwise. Backups are purged within <mark>[X]</mark> days after that. Usage logs are kept for up to <mark>[12]</mark> months. Contact and waitlist data is kept until you ask us to delete it or it is no longer needed for the purpose we collected it. De-identified data is not subject to these deletion periods.
-
-Before deletion, an Organization can export its data in a standard format such as CSV or JSON. Ask your account contact or email leo@osnplatform.com.
+We keep account and training data while your Organization's subscription or pilot is active. Within <mark>[90]</mark> days after it ends, we delete or return that Organization's data, unless law requires us to keep it or the Organization's agreement provides otherwise. Backups are purged within <mark>[X]</mark> days after that. Usage logs are kept for up to <mark>[12]</mark> months. Contact form and waitlist data is kept until you ask us to delete it or it is no longer needed for the purpose we collected it. De-identified data is not subject to these deletion periods.
 
 # Your choices and rights
 
 **Your rights.** You can ask to access, correct, delete, or receive a copy of your personal information. You can also opt out of model training. Email leo@osnplatform.com. We respond within 45 days. If your Organization controls your data, we may forward your request to it. We will not treat you differently for using these rights. Residents of California and other states with privacy laws have these rights by law. We offer them to everyone.
 
 **Former users.** Former users, such as cadets who have commissioned, can request a copy of their own training records for up to <mark>[12]</mark> months after their account closes, unless their Organization's agreement prevents it.
+
+**Organization exports and datasets.** Before deletion, an Organization can export its data in a standard format such as CSV or JSON. An Organization can also request the de-identified dataset from its own exercises for internal research. Ask your account contact or email leo@osnplatform.com.
 
 **Access or update your information.** You may review and update certain account information by logging into your account or by asking your Organization's administrator.
 
@@ -137,11 +139,11 @@ The Service may contain links to websites and online services operated by third 
 
 # Security
 
-We use administrative, technical, and physical safeguards designed to protect personal information. We encrypt data in transit and at rest, restrict access to staff who need it, and host on Amazon Web Services infrastructure. No system is perfectly secure, and we cannot guarantee the security of your personal information. If a breach affects your information, we will notify you or your Organization as required by law and contract.
+We use administrative, technical, and physical safeguards designed to protect personal information. Traffic to the Service is encrypted in transit, and access to production systems is limited to authorized staff using restricted credentials and network allowlists. <mark>[CONFIRM BEFORE PUBLISHING THAT DATABASE VOLUMES AND BACKUPS ARE ENCRYPTED AT REST, THEN ADD: "We also encrypt data at rest."]</mark> No system is perfectly secure, and we cannot guarantee the security of your personal information. If a breach affects your information, we will notify you or your Organization as required by law and contract.
 
 # Where we store data
 
-We are headquartered in the United States. We store and process data in the United States. If you access the Service from outside the United States, your personal information will be transferred to the United States, where privacy laws may not be as protective as those in your country.
+We are headquartered in the United States. We store and process data in the United States, using Amazon Web Services data centers. <mark>[CONFIRM EACH AI MODEL PROVIDER PROCESSES DATA IN THE UNITED STATES.]</mark> If you access the Service from outside the United States, your personal information will be transferred to the United States, where privacy laws may not be as protective as those in your country.
 
 # Children and minors
 
@@ -215,7 +217,7 @@ For purposes of this section, "**Personal Information**" has the meaning given t
 | Contact data | Identifiers; professional or employment-related information | Service delivery and operations; communications; compliance and protection | Service providers; professional advisors; authorities; business transferees | None |
 | Account data | Identifiers; professional or employment-related information; sensitive PI (account login credentials) | Service delivery and operations; compliance and protection | Your Organization; service providers; professional advisors; authorities; business transferees | None |
 | Training and performance data | Education information; inferences (training scores and performance assessments) | Service delivery and operations; service improvement and analytics; model training and improvement | Your Organization; other users in your exercises; service providers (including AI model providers); professional advisors; authorities; business transferees | None |
-| User-generated content and input data | Audio, electronic, visual, or similar information; identifiers (where included in content) | Service delivery and operations; service improvement and analytics; model training and improvement | Your Organization; service providers (including AI model providers); authorities; business transferees | None |
+| User-generated content and input data | Audio, electronic, visual, or similar information; identifiers (where included in content) | Service delivery and operations; service improvement and analytics; model training and improvement | Your Organization; other users (for shared scenarios); service providers (including AI model providers); authorities; business transferees | None |
 | Communications data | Identifiers; audio, electronic, visual, or similar information | Service delivery and operations; communications; compliance and protection | Service providers; professional advisors; authorities; business transferees | None |
 | Organization billing data | Identifiers; commercial information | Service delivery and operations; compliance and protection | Service providers; professional advisors; authorities; business transferees | None |
 | Device and online activity data | Identifiers (IP address); internet or network activity information; general geolocation (derived from IP address) | Service delivery and operations; service improvement and analytics; compliance and protection | Service providers; authorities; business transferees | None |

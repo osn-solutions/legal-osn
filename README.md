@@ -1,6 +1,6 @@
 # Legal Templates
 
-> **OSN:** Customized Terms of Use, Privacy Policy, and Cookie Notice for Operational & Strategic Networks Inc. are in the [`osn/`](osn/) folder.
+> **OSN:** Customized Terms of Use, Privacy Policy, Cookie Notice, Subprocessor list, and Accessibility Statement for Operational & Strategic Networks Inc. are in the [`osn/`](osn/) folder. Start with [`osn/README.md`](osn/README.md).
 
 Attorney-drafted legal templates for startups and technology companies. Created by the attorneys at [General Legal](https://general.legal) and released under [CC0 1.0](LICENSE). Free for anyone to use, modify, and distribute for any purpose, without attribution.
 
